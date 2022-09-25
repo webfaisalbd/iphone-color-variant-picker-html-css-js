@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     text-decoration: none;
 }
 
@@ -39,6 +38,7 @@ nav .btn {
 }
 
 .left {
+    width: 100%;
     display: flex;
     border: 2px solid blue;
     justify-content: center;
@@ -54,4 +54,21 @@ nav .btn {
 .right img {
     width: 100%;
     height: 100%;
+}
+
+.brand {
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.model {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.description {
+    margin: 3% 0;
+    line-height: 1.4;
 }
