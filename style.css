@@ -57,12 +57,13 @@ nav .btn {
 }
 
 .brand {
-    color: red;
+    color: #d5c7ad;
     font-weight: 800;
     font-size: 20px;
 }
 
 .model {
+    color: silver;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 35px;
@@ -72,3 +73,40 @@ nav .btn {
     margin: 3% 0;
     line-height: 1.4;
 }
+
+.pick-color {
+    margin: 2% 0;
+}
+
+.color-select div {
+    background: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.color-select {
+    display: flex;
+}
+
+.color-select #gold {
+    background: #d5c7ad;
+}
+.color-select #silver {
+    background: #d8d9d3;
+}
+.color-select #blue {
+    background: #a4bacf;
+    /* Sierra Blue  3 */
+}
+.color-select #green {
+    background: #6f816e;
+    /* Alpine Green  4 */
+}
+.color-select #graphite {
+    background: #5a5955;
+}
+
+
